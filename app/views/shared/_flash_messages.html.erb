@@ -1,0 +1,8 @@
+<div class="container" style="padding: 0 15px">
+	<% flash.each do |type, message| %>
+	  <div class="alert <%= alert_class_for(type) %>">
+	    <button class="close" data-dismiss="alert">&times;</button>
+	    <p class="mb-0"><%= message %></p>	
+	  </div>
+	<% end %>
+</div>

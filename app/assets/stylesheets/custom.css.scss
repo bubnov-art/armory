@@ -1,0 +1,48 @@
+.footer {
+  /*position: fixed;*/
+  bottom: 0.6px;
+  /*width: 100%;*/
+  color: #eee;
+  /*height: 150px;*/
+}
+.push{
+	height: 50px;
+}
+body > .container {
+
+  padding: 60px 15px 0;
+}
+.footer-block { margin: 20px 0; }
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.footer .nav-link {
+	padding-bottom: 0 ;
+}
+#login-form{
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 2em;
+}
+#login-form label{
+	margin-bottom: -200px;
+}
+#login-form form{
+	min-width: 300px;
+}
+#login-form .btn{
+	min-height: 20px;
+	font-size: 12px;
+	letter-spacing: 0.1em;
+}
+.content:after {
+ content: '';
+ display: block;
+}
+#region-select{
+	min-width: 65px;
+}
