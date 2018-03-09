@@ -14,4 +14,6 @@ Rails.application.routes.draw do
   get '/account' => 'users#show'
   get 'auth/bnet/callback' => 'search#auth_callback'
   get '/auth' => 'search#bnet_auth'
+
+  get '/get_realm_by_region/:region' => 'search#get_realm_list'
 end
